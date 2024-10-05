@@ -35,7 +35,7 @@ publishing {
                 }
                 scm {
                     connection = 'scm:git:git://github.com/SardorBoboyev/ChatLibraries'
-                    developerConnection = 'scm:git:ssh://github.com/your-repo-url.git'
+                    developerConnection = 'scm:git:ssh://git@github.com:SardorBoboyev/ChatLibraries.git'
                     url = 'https://github.com/SardorBoboyev/ChatLibraries'
                 }
             }
