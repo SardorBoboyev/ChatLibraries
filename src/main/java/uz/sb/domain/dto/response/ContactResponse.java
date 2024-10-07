@@ -1,6 +1,15 @@
 package uz.sb.domain.dto.response;
 
-public class ContactResponse extends BaseResponse {
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Builder
+
+public class ContactResponse {
+    private Long id;
 
     private Long userId; // adder
 

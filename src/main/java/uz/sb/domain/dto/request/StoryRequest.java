@@ -9,12 +9,13 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ContactRequest {
 
+public class StoryRequest {
+    private Long userId;
 
-    private Long userId; // adder
+    private String comment;
 
-    private Long contactUserId;  // person to join contact
+    private String mediaType;
 
-    private String ContactName;
+    private String contentUrl;
 }
